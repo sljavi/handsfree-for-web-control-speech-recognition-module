@@ -24,12 +24,14 @@ export default {
       name: 'i18n-command.start-listening',
       help: 'i18n-help.start-listening',
       action: startListening,
-      group: 'i18n-group.listeningControl'
+      group: 'i18n-group.listeningControl',
+      startRecognition: true
     }, {
       name: 'i18n-command.stop-listening',
       help: 'i18n-help.stop-listening',
       action: stopListening,
-      group: 'i18n-group.listeningControl'
+      group: 'i18n-group.listeningControl',
+      startRecognition: true
     }],
     i18n: {
       en: {
