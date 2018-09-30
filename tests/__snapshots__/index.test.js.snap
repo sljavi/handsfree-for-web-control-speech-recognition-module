@@ -17,14 +17,13 @@ Object {
           "group": "i18n-group.listeningControl",
           "help": "i18n-help.stop-listening",
           "name": "i18n-command.stop-listening",
-          "startRecognition": true,
         },
       ],
       "context": "root",
       "i18n": Object {
         "en": Object {
-          "command.start-listening": "start listening",
-          "command.stop-listening": "stop listening",
+          "command.start-listening": "wake up",
+          "command.stop-listening": "go to sleep",
           "group.listeningControl": "Listening Control",
           "help.start-listening": "Start voice recognition process",
           "help.stop-listening": "Stop voice recognition process",
@@ -43,11 +42,11 @@ Object {
   "i18n": Object {
     "en": Object {
       "description": "Commands useful to tell to Handsfree for web when to listen for voice commands.",
-      "name": "Speech Recognition Control",
+      "name": "Recognition control",
     },
     "es": Object {
       "description": "Comandos útiles para indicarle a la extensión cuando escuchar comandos de voz.",
-      "name": "Control de reconocimiento de voz",
+      "name": "Control de reconocimiento",
     },
   },
   "icon": "fa fa-search-plus",

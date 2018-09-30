@@ -30,15 +30,14 @@ export default {
       name: 'i18n-command.stop-listening',
       help: 'i18n-help.stop-listening',
       action: stopListening,
-      group: 'i18n-group.listeningControl',
-      startRecognition: true
+      group: 'i18n-group.listeningControl'
     }],
     i18n: {
       en: {
         'group.listeningControl': 'Listening Control',
-        'command.stop-listening': 'stop listening',
+        'command.stop-listening': 'go to sleep',
         'help.stop-listening': 'Stop voice recognition process',
-        'command.start-listening': 'start listening',
+        'command.start-listening': 'wake up',
         'help.start-listening': 'Start voice recognition process'
       },
       es: {
@@ -52,11 +51,11 @@ export default {
   }],
   i18n: {
     en: {
-      name: 'Speech Recognition Control',
+      name: 'Recognition control',
       description: 'Commands useful to tell to Handsfree for web when to listen for voice commands.'
     },
     es: {
-      name: 'Control de reconocimiento de voz',
+      name: 'Control de reconocimiento',
       description: 'Comandos útiles para indicarle a la extensión cuando escuchar comandos de voz.'
     }
   }
