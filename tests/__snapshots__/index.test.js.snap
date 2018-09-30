@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module defines a module 1`] = `
+Object {
+  "contexts": Array [
+    Object {
+      "commands": Array [
+        Object {
+          "action": [Function],
+          "group": "i18n-group.listeningControl",
+          "help": "i18n-help.start-listening",
+          "name": "i18n-command.start-listening",
+        },
+        Object {
+          "action": [Function],
+          "group": "i18n-group.listeningControl",
+          "help": "i18n-help.stop-listening",
+          "name": "i18n-command.stop-listening",
+        },
+      ],
+      "context": "root",
+      "i18n": Object {
+        "en": Object {
+          "command.start-listening": "start listening",
+          "command.stop-listening": "stop listening",
+          "group.listeningControl": "Listening Control",
+          "help.start-listening": "Start voice recognition process",
+          "help.stop-listening": "Stop voice recognition process",
+        },
+        "es": Object {
+          "command.start-listening": "iniciar reconocimiento",
+          "command.stop-listening": "detener reconocimiento",
+          "group.listeningControl": "Control de reconocimiento de voz",
+          "help.start-listening": "Inicia el proceso de reconocimiento de voz",
+          "help.stop-listening": "Concluye el proceso de reconocimiento de voz",
+        },
+      },
+    },
+  ],
+  "description": "i18n-description",
+  "i18n": Object {
+    "en": Object {
+      "description": "Commands useful to tell to Handsfree for web when to listen for voice commands.",
+      "name": "Speech Recognition Control",
+    },
+    "es": Object {
+      "description": "Comandos útiles para indicarle a la extensión cuando escuchar comandos de voz.",
+      "name": "Control de reconocimiento de voz",
+    },
+  },
+  "icon": "fa fa-search-plus",
+  "name": "i18n-name",
+}
+`;
+
+exports[`Module startListening action calls background action 1`] = `
+Array [
+  Array [
+    Object {
+      "startSpeechRecognition": true,
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`Module stopListening action calls background action 1`] = `
+Array [
+  Array [
+    Object {
+      "startSleepMode": true,
+    },
+    [Function],
+  ],
+]
+`;
