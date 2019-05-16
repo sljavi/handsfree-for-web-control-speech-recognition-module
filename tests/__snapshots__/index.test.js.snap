@@ -35,6 +35,13 @@ Object {
           "help.start-listening": "Inicia el proceso de reconocimiento de voz",
           "help.stop-listening": "Concluye el proceso de reconocimiento de voz",
         },
+        "pt": Object {
+          "command.start-listening": "Ativar Reconhecimento de voz",
+          "command.stop-listening": "Desativar Reconhecimento de voz",
+          "group.listeningControl": "Controle de fala",
+          "help.start-listening": "Começa o processo de reconhecimento de voz",
+          "help.stop-listening": "Para o processo de reconhecimento de voz",
+        },
       },
     },
   ],
@@ -47,6 +54,10 @@ Object {
     "es": Object {
       "description": "Comandos útiles para indicarle a la extensión cuando escuchar comandos de voz.",
       "name": "Control de reconocimiento",
+    },
+    "pt": Object {
+      "description": "Comando úteis para ativar ou desativar o reconhecimento de voz do Handsfree for web.",
+      "name": "Controle de reconhecimento de voz",
     },
   },
   "icon": "fa fa-search-plus",

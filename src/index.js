@@ -46,6 +46,13 @@ export default {
         'help.stop-listening': 'Concluye el proceso de reconocimiento de voz',
         'command.start-listening': 'iniciar reconocimiento',
         'help.start-listening': 'Inicia el proceso de reconocimiento de voz'
+      },
+      pt: {
+        'group.listeningControl': 'Controle de fala',
+        'command.stop-listening': 'Desativar Reconhecimento de voz',
+        'help.stop-listening': 'Para o processo de reconhecimento de voz',
+        'command.start-listening': 'Ativar Reconhecimento de voz',
+        'help.start-listening': 'Começa o processo de reconhecimento de voz'
       }
     }
   }],
@@ -57,6 +64,10 @@ export default {
     es: {
       name: 'Control de reconocimiento',
       description: 'Comandos útiles para indicarle a la extensión cuando escuchar comandos de voz.'
+    },
+    pt: {
+      name: 'Controle de reconhecimento de voz',
+      description: 'Comando úteis para ativar ou desativar o reconhecimento de voz do Handsfree for web.'
     }
   }
 }
