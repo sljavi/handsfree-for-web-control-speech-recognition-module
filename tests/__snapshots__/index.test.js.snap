@@ -36,8 +36,8 @@ Object {
           "help.stop-listening": "Concluye el proceso de reconocimiento de voz",
         },
         "pt": Object {
-          "command.start-listening": "Ativar Reconhecimento de voz",
-          "command.stop-listening": "Desativar Reconhecimento de voz",
+          "command.start-listening": "ativar Reconhecimento de voz",
+          "command.stop-listening": "desativar Reconhecimento de voz",
           "group.listeningControl": "Controle de fala",
           "help.start-listening": "Começa o processo de reconhecimento de voz",
           "help.stop-listening": "Para o processo de reconhecimento de voz",
