@@ -49,9 +49,9 @@ export default {
       },
       pt: {
         'group.listeningControl': 'Controle de fala',
-        'command.stop-listening': 'desativar Reconhecimento de voz',
+        'command.stop-listening': 'desativar reconhecimento de voz',
         'help.stop-listening': 'Para o processo de reconhecimento de voz',
-        'command.start-listening': 'ativar Reconhecimento de voz',
+        'command.start-listening': 'ativar reconhecimento de voz',
         'help.start-listening': 'Começa o processo de reconhecimento de voz'
       }
     }
